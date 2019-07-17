@@ -7,5 +7,13 @@
 //                        |___/                      |___/ 
 /** 配置文件 **/
 return [
-  ""
+  //Web connection
+  "listen_port"    => 1919,                                                                 //http通信端口
+  //Key
+  "strict_mode"    => false,                                                                //是否启用严格鉴权模式，建议开启
+  "Jid"            => "0847e7f350eb6249280d70da9a78946e",                                   //评测姬ID，请勿修改
+  "Key"            => "6ac3c336e4094835293a3fed8a4b5fedde1b5e2626d9838fed50693bba00af0e",   //通信密钥，请勿修改
+  //judgement
+         
 ];
+//Generated on {time}
